@@ -2,17 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+    font-family: "Poppins", sans-serif
 }
 
 body {
-
-    background: linear-gradient(90deg,
-            rgb(122, 230, 249) 0%,
-            rgb(2, 172, 251) 100%);
+    background: linear-gradient(90deg, #7ae6f9 0%, #02acfb 100%);
     display: grid;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-around
 }
 
 .container {
@@ -21,7 +18,7 @@ body {
     width: 100%;
     min-width: 500px;
     display: grid;
-    justify-content: center;
+    justify-content: center
 }
 
 .new-task-container {
@@ -29,7 +26,7 @@ body {
     padding: 30px 20px;
     border-radius: 5px;
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
-    display: flex;
+    display: flex
 }
 
 .new-task-container input {
@@ -38,12 +35,12 @@ body {
     border: 2px solid #d1d3d4;
     border-radius: 5px;
     padding: 12px;
-    font-weight: 500;
+    font-weight: 500
 }
 
 .new-task-container input:focus {
     outline: none;
-    border-color: #41b883;
+    border-color: #41b883
 }
 
 .new-task-button {
@@ -57,7 +54,7 @@ body {
     color: #fff;
     padding: 12px;
     margin-left: 12px;
-    cursor: pointer;
+    cursor: pointer
 }
 
 .tasks-container {
@@ -66,7 +63,7 @@ body {
     margin-top: 60px;
     border-radius: 10px;
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
-    width: 100%;
+    width: 100%
 }
 
 .task-item {
@@ -74,48 +71,47 @@ body {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 6px;
-    margin-top: 6px;
+    margin-top: 6px
 }
 
 .task-item i {
     background-color: #41b883;
     color: #fff;
     padding: 12px;
-    border-radius: 5px;
+    border-radius: 5px
 }
 
 .task-item i:hover {
-    cursor: pointer;
+    cursor: pointer
 }
 
-/* Utilities */
 .error {
-    border: 2px solid red !important;
+    border: 2px solid red !important
 }
 
 .error::placeholder {
-    color: red;
+    color: red
 }
 
 .completed {
-    text-decoration: line-through;
+    text-decoration: line-through
 }
 
 #dov {
     display: flex;
-    justify-content: center;
+    justify-content: center
 }
 
 h1 {
     text-align: center;
     font-family: Arial;
-    font-family: arial;
+    font-family: arial
 }
 
 p {
     text-align: center;
     font-size: 25px;
-    font-family: arial;
+    font-family: arial
 }
 
 #class {
@@ -124,5 +120,5 @@ p {
     width: fit-content;
     height: fit-content;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto
 }
