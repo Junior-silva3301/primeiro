@@ -120,7 +120,7 @@ p {
 
 @media screen and (max-width:790px) {
     .produto-contanier {
-        width: 100%;
-        flex-direction: column;
+        display: flex;
+        justify-content: space-around;
     }
 }
