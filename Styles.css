@@ -12,7 +12,7 @@ body {
             rgb(187, 0, 255) 100%);
     display: grid;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .container {
@@ -20,7 +20,8 @@ body {
     padding: 30px 40px;
     width: 40%;
     min-width: 500px;
-    justify-content: space-around;
+    display: grid;
+    justify-content: center;
 }
 
 .new-task-container {
@@ -29,7 +30,6 @@ body {
     border-radius: 5px;
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
     display: flex;
-    justify-content: space-around;
 }
 
 .new-task-container input {
@@ -39,7 +39,6 @@ body {
     border-radius: 5px;
     padding: 12px;
     font-weight: 500;
-    justify-content: space-around;
 }
 
 .new-task-container input:focus {
@@ -59,7 +58,6 @@ body {
     padding: 12px;
     margin-left: 12px;
     cursor: pointer;
-    justify-content: space-around;
 }
 
 .tasks-container {
@@ -69,7 +67,6 @@ body {
     border-radius: 10px;
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
     width: 100%;
-    justify-content: space-around;
 }
 
 .task-item {
@@ -78,7 +75,6 @@ body {
     align-items: center;
     margin-bottom: 6px;
     margin-top: 6px;
-    justify-content: space-around;
 }
 
 .task-item i {
@@ -86,7 +82,6 @@ body {
     color: #fff;
     padding: 12px;
     border-radius: 5px;
-    justify-content: space-around;
 }
 
 .task-item i:hover {
@@ -123,7 +118,7 @@ p {
     font-family: arial;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:790px) {
     .produto-contanier {
         width: 100%;
         flex-direction: column;
