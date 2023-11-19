@@ -117,10 +117,3 @@ p {
     font-size: 25px;
     font-family: arial;
 }
-
-@media screen and (max-width:790px) {
-    .produto-contanier {
-        display: flex;
-        justify-content: space-around;
-    }
-}
