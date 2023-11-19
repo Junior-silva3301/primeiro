@@ -8,8 +8,8 @@
 body {
 
     background: linear-gradient(90deg,
-            rgb(65, 93, 184) 0%,
-            rgb(187, 0, 255) 100%);
+            rgb(122, 230, 249) 0%,
+            rgb(2, 172, 251) 100%);
     display: grid;
     align-items: center;
     justify-content: space-around;
